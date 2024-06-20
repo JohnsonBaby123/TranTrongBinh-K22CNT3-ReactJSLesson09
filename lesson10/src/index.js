@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './App.css';
+import TtbCategory from './componets/TtbCategory.js';
+import { useEffect, useState } from 'react';
+import axios from './api/TtbApi.js';
+import TTBCategoryForm from './componets/TtbCategoryForm.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

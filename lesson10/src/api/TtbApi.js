@@ -1,4 +1,4 @@
 import axios from 'axios'
 export default axios.create({
-    baseURL:"https://666a665b7013419182cf21b5.mockapi.io/ttbStudent"
+    baseURL:"https://667390666ca902ae11b49330.mockapi.io/TtbAPI/Ttbv1/"
 })
